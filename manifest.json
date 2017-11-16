@@ -1,5 +1,18 @@
 {
-  "manifest_version": 1,
+  "icons": {
+    "128": "images/icon128.png",
+    "16": "images/icon.png",
+    "48": "images/icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon48.png",
+    "default_popup": "popup.html",
+    "default_title": "BreakingWall"
+  },
+  "permissions": [ "proxy", "webRequest", "management", "notifications", "tabs", "activeTab", "storage", "\u003Call_urls>", "http://api.flickr.com/"],
+  "options_page": "home.html",
+  "manifest_version": 2,
   "name": "BreakingWall",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "web_accessible_resources": [ "images/icon128.png" ]
 }
