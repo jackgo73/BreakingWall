@@ -1,0 +1,18 @@
+// https://IP/api/popup
+
+{
+  "is_local_mode": true,
+  "is_global_mode": false,
+  "proxy": {
+    "value": {
+      "mode": "pac_script",
+      "pacScript": {
+        "url": "http://IP/api/pac/xxxxxxxxx"
+      }
+    },
+    "scope": "regular"
+  },
+  "token": "abbc32a3657e03a8738cd6882b17915d",
+  "body_html": "<h4> BreakingWall </h4>",
+  "target": "body"
+}
