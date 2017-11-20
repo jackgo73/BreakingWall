@@ -1,0 +1,30 @@
+<div id=\"popup\">
+    <h4><img class=\"logo1\" src=\"img/icon48.png\"/> 谷歌上网助手
+        <small> v1.2.0</small>
+    </h4>
+    <hr/>
+    <form method=\"post\" action=\"/api/popup\">
+        <ul class=\"list-unstyled\" style=\"height: 130px;\
+        ">
+        <div class=\"clearfix\"></div>
+        <li><b>网站加速名单</b>
+            <div class=\"pull-right\"><input type=\"hidden\" name=\"is_local_mode\" value=\"0\"><input
+                    name=\"is_local_mode\" type=\"checkbox\" class=\"switchsmall\" data-size=\"mini\"
+                    id=\"is_local_mode\" value=\"1\"></div>
+        </li>
+        <li><b>全局网站加速</b>
+            <div class=\"pull-right\"><input type=\"hidden\" name=\"is_global_mode\" value=\"0\"><input
+                    name=\"is_global_mode\" type=\"checkbox\" class=\"switchsmall\" data-size=\"mini\"
+                    id=\"is_global_mode\" value=\"1\"></div>
+        </li>
+        <li style=\"text-align: center;\
+        "> 小提醒:访问国内网站请关闭全局模式,否则会影响速度 </li>\t\t <i class=\"glyphicon glyphicon-warning-sign\"></i> 您没有可用的代理服务器,只可以方问谷歌.
+        <a target=\"ghelper\" href=\"vip.html\" class=\"btn btn-success\">升级会员</a> </li> 您的帐号还没有激活 </ul>
+        <hr>
+        <span class=\"setting text-primary\"> <a href=\"home.html\" target=\"ghelper\"> <i class=\"glyphicon
+                                                                                           glyphicon-cog\"></i> 系统设置
+    </a> </span> <span class=\"log-out pull-right text-danger\"> <a
+            href=\"/ghelper/api/user/logout?return=%2Fapi%2Fpopup\" class=\"ajax\"> <i class=\"glyphicon
+                                                                                       glyphicon-log-out\"></i> 退出
+    </a> </span> </form>
+</div>
