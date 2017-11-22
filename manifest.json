@@ -13,7 +13,6 @@
     "page": "pages/background/background.html"
   },
   "permissions": [ "proxy", "webRequest", "management", "notifications", "tabs", "activeTab", "storage", "\u003Call_urls>", "http://api.flickr.com/"],
-//  "options_page": "home.html",
   "manifest_version": 2,
   "name": "BreakingWall",
   "version": "1.0.0",
