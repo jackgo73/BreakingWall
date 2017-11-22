@@ -1,0 +1,10 @@
+{
+   "disableProxyTitle": {
+      "description": "Disable proxy title.",
+      "message": "在此网站上禁用代理"
+   },
+   "enableProxyTitle": {
+      "description": "Enable proxy title.",
+      "message": "在此网站上启用代理"
+   }
+}
