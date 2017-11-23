@@ -59,10 +59,15 @@ footer {
 }
 
 /*icon*/
+.fa {
+    padding-top: 1.6px;
+    padding-bottom: 1px;
+    margin-right: 6px;
+}
 
 .icon-logo {
     height: 26px;
-    padding: 14px 6px 14px 8px;
+    padding: 16px 6px 14px 8px;
     width: 26px;
 }
 
