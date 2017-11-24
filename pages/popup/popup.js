@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 domainIndicatorElement.innerText = domain;
 
-                if (backgroundPage.requestAnalyzer.whitelistedDomains[domain]) {
+                if (!backgroundPage.requestAnalyzer.whitelistedDomains[domain] ) {
                     /**
                      * no need to proxy!
                      */

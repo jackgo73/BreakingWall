@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<title></title>
+<meta http-equiv="pragma" content="no-cache">
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/ghelper.js"></script>
+    <script src="js/home.js"></script>
+<body>
+<div class="container">
+    <div class="col-md-2 sidebar">
+        <ul class="menu-root">
+            <li><a class="sidebar-link active" href="home.html">用户中心</a>
+                <ul class="menu-sub"></ul>
+            </li>
+            <li><a class="sidebar-link" href="website.html">网站加速</a>
+                <ul class="menu-sub"></ul>
+            </li>
+            <li><a class="sidebar-link" href="proxy.html">代理服务器</a>
+                <ul class="menu-sub"></ul>
+            </li>
+            <li><a class="ajax active sidebar-link" href="/ghelper/api/ticket/index">在线客服</a>
+                <ul class="menu-sub"></ul>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-10"><h3>用户中心</h3>
+        <p>我们一直在努力优化产品的每一个环节,确保插件的稳定性与速度.欢迎用户向客服反馈意见与问题.</p>
+        <p>永久客服邮箱:ghelperinfo@gmail.com
+        <hr>
+        <p class="uaccount"> 您好，<strong>jackgod@outlook.com</strong> <a class="ajax" href="/api/user/passwd"
+                                                                        class="ajax">修改密码</a></p>
+        <p> 普通用户 <a href="/api/user/vip" class="ajax btn btn-primary">升级VIP会员</a></p>
+        <div class="alert alert-danger" role="alert"><strong><i class="glyphicon glyphicon-warning-sign"></i>
+            一封激活邮件已发到您的邮箱中,激活帐号可以试用VIP会员3天. <a href="/ghelper/api/user/sendactivemail"
+                                               class="btn ajax">点击重新发送激活邮件</a></strong></div>
+        <div class="alert alert-danger" role="alert"><strong><i class="glyphicon glyphicon-warning-sign"></i>
+            如果收件箱没有找到我们的邮件,有可能在"垃圾箱"里.</strong></div>
+        </hr><h3>最新消息</h3>
+        <p>请多关注用户中心首页,一些新的动态消息会在这里发布.
+        <p> 近期 “香港多线” 多有调整，请见谅，未来我们会针对这条线路做更多的优化。这条线路的速度非常快. 19/10/2017</p></p></br></br>
+        <div class="alert alert-warning"><p>重要提醒: 使用谷歌搜索的用户请走 google.com.hk 香港专线,我们新增加了专为香港 谷歌高速专线.大家可以把浏览器默认的搜索引擎改成
+            google.com.hk.<br/>将浏览器的默认搜索引擎改为谷歌香港方法:进入浏览器设置 > 管理搜索引擎 > 添加或修改.<br>名称写: 谷歌香港 , 关键字写: Google, 网址写:<br/>https://www.google.com.hk/search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:searchClient}{google:sourceId}{google:instantExtendedEnabledParameter}{google:contextualSearchVersion}ie={inputEncoding}<br/>即将发布的新彼本会通过插件自动解决上面的问题.
+        </p>
+            <h3>插件使用说明</h3>
+            <p>首次使用的用户注意: 如果你不能正常访问谷歌,有可能是你的浏览器的版本过旧,建议升级一下Chrome浏览器最新版本或以Chrome开发系统的浏览器(如360浏览器)</p>
+            <p>安装插件后不需要任何设置,就可以免费访问谷歌的系列产品(google.com, google.com.hk, gmail.com
+                是插件默认设置好的,只要登录就可以免费访问的.)，提高网站打开速度。升级为会员后可以使用“网站加速名单”和“全局网站加速”</p>
+            <p> <h6>关于谷歌搜索出现 "人机验证页面" 的问题.</h6>
+            部分用户在使用谷歌搜索时,有时会出现人机验证的页面,并提示说检测到你的电脑有异常流量的提示,这个是正常情况,原因是由于大家共用同一个代理服务器访问谷歌并发量大的时候,谷歌需要验证是否正常人为的访问,谷歌无法知道来自同一个地址的请求是否为程序机器人的请求,还是人为的使用.
+            大家只需要点击页面前面的方框,并提交就行了,有时会需要你进行图片识别的验证.按着要求操作就好. 这种问题,我们会通过不断的增加服务器来减少谷歌这方面的提示. </p> <h3>网站名单加速模式</h3>
+            <p>添加你经常使用的网站到“网站加速名单”中，不开“全局网站加速”就可以访问。(如果开全局的话有些国内的网站访问速度会慢)</p>
+            <h3>全局网站加速模式</h3>
+            <p>如果安装插件后国外的网站访问不了，打开“全局网站加速”就可以访问了。 访问国内网站时请关闭全局模式!</p></div>
+    </div>
+</div>
+<footer class="footer"><a href="http://googlehelper.net/policies/privacy" target="_blank">隐私策略(Privacy)</a> | <a
+        href="http://googlehelper.net" target="_blank">官方网站</a></footer>
+</body>
+</html>
