@@ -106,6 +106,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
+    document.getElementById('options-button').addEventListener('click', function () {
+        chrome.runtime.openOptionsPage();
+        return window.close();
+    });
+
 
 });
 
