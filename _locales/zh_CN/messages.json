@@ -1,0 +1,18 @@
+{
+   "disableProxyTitle": {
+      "description": "Disable proxy title.",
+      "message": "在此网站上禁用代理。"
+   },
+   "enableProxyTitle": {
+      "description": "Enable proxy title.",
+      "message": "在此网站上启用代理。"
+   },
+   "amountProxyTitle": {
+      "description": "Amount Proxy title.",
+      "message": "通过代理访问的计数器。"
+   },
+   "amountProxyDescription": {
+      "description": "Amount proxy description.",
+      "message": "自安装以来，通过代理服务器访问的网站总量。"
+   }
+}

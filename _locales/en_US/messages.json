@@ -1,0 +1,18 @@
+{
+   "disableProxyTitle": {
+      "description": "Disable proxy title.",
+      "message": "Disable proxy for this site"
+   },
+   "enableProxyTitle": {
+      "description": "Enable proxy title.",
+      "message": "Enable proxy for this site"
+   },
+   "amountProxyTitle": {
+      "description": "Amount Proxy title.",
+      "message": "Counter for websites visited by proxy."
+   },
+   "amountProxyDescription": {
+      "description": "Amount proxy description.",
+      "message": "Amount of websites visited by proxy since installation."
+   }
+}
