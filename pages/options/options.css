@@ -1,40 +1,7 @@
 
-
-.sidebar ul {
-    list-style-type: none;
-    line-height: 2em;
-    padding-left: 1em;
-}
-
-.sidebar .menu-sub {
-    font-size: .85em;
-}
-
-.sidebar .sidebar-link.active {
-    font-weight: 900;
-    color: #4e9bd4;
-}
-
-.sidebar .sidebar-link:hover {
-    font-weight: 900;
-    color: #4e9bd4;
-    border-bottom: 3px solid #4e9bd4;
-}
-
-.sidebar a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #34495e;
-}
-.sidebar .sidebar-link {
-    color: #34495e;
-    transition: all .2s ease-in;
-}
-.sidebar .section-link.active {
-    font-weight: 700;
-}
-.sidebar .section-link.active, .sidebar .section-link:hover {
-    color: #4e9bd4;
-    border-left: 3px solid #4e9bd4;
-    padding-left: 3px;
+h1 {
+    color: #5c6166;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
 }
